@@ -6,5 +6,6 @@ import App from './App.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
+    <div className="grain-overlay" aria-hidden="true" />
   </StrictMode>,
 )
